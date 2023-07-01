@@ -1,0 +1,130 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#main{
+	width:100%;
+	margin:5px;
+}
+.static{
+	margin:10px;
+	border:3px solid black;
+	width:500px;
+	height:500px;
+	position:static;
+}
+.box1{
+	background-color:#80bfff;
+	width:100px;
+	height:100px;
+}
+.box2{
+	background-color:#66ff66;
+	width:100px;
+	height:100px;
+}
+.box3{
+	background-color:#ffcc99;
+	width:100px;
+	height:100px;
+}
+.relative{
+	margin:10px;
+	border:3px solid black;
+	width:500px;
+	height:500px;
+}
+.box4{
+	background-color:#80bfff;
+	width:100px;
+	height:100px;
+	position:absolute;
+	top:600px;
+	left:700px;
+}
+.box5{
+	background-color:#66ff66;
+	width:100px;
+	height:100px;
+}
+.box6{
+	background-color:#ffcc99;
+	width:100px;
+	height:100px;
+}
+.absolute{
+	margin:10px;
+	border:3px solid black;
+	width:500px;
+	height:500px;
+	position:relative;
+}
+.box7{
+	background-color:#ff66cc;
+	width:100px;
+	height:100px;
+}
+.box8{
+	background-color:#ffff66;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left:70px;
+	top:70px;
+}
+.box9{
+	background-color:#99cc00;
+	width:100px;
+	height:100px;
+}
+.fixed{
+	margin:10px;
+	border:3px solid black;
+	width:500px;
+	height:500px;
+}
+.box10{
+	background-color:#6666ff;
+	width:100px;
+	height:100px;
+}
+.box11{
+	background-color:#00cc66;
+	width:100px;
+	height:100px;
+}
+.box12{
+	background-color:#cc00cc;
+	width:100px;
+	height:100px;
+	position:fixed;
+	top:0;
+	left:1000px;
+}
+.sticky{
+	margin:20px;
+	width:auto;
+	height:50px;
+	position:sticky;
+	top:0;
+}
+li{
+	float:left;
+}
+li a{
+	font-size:25px;
+	text-decoration:none;
+	display:block;
+	color:white;
+	padding:20px 20px;
+}
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	background-color:#333;
+}
+a:hover{
+	background-color:#000;
+}
+	
